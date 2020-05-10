@@ -1,5 +1,16 @@
 # R_Analysis
 
+### Project Overview
+We are analyzing a new vehicle prototype using R. Some of the analysis includes:<br />
+-multiple linear regression related to MPG<br />
+-suspension soil and variance<br />
+-t-tests<br />
+-horsepower and performance - own study<br />
+
+Data Source: MechaCar_mpg.csv, Suspension_Coil.csv<br />
+
+Software: R<br />
+
 ### MPG Regression
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
