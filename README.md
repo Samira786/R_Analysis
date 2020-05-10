@@ -2,13 +2,21 @@
 
 ### MPG Regression
 
+Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+Is the slope of the linear model considered to be zero? Why or why not?
+Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
 Based on the results, vehicle length and ground clearance are statistically unlikely to provide random amounts of variance due to the significant impact on mpg. The slope of the linear model is very close to zero because the p-value is 5.35e-11, which is smaller than the 0.05. This linear model predicts mpg of prototypes effectively by 71% because the r-squared value is 0.71.
 
 ### Suspension Coil
 
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?
+
 Lot size 3 exceeds 100 pounds per inch as the variance of Lot 3 is 170.
 
 ### Suspension Coil T-Test
+
+Interpretation and findings for the t-test results
 
 P-value of Lot 1 - 1
 P-value of Lot 2 - 0.6072
@@ -26,7 +34,7 @@ The probability of selecting a sample with a mean equal to this one would be app
 
 Own Study
 
-Is Performance of the car is determined by MPG and Horsepower?
+Is Performance of the car determined by MPG and Horsepower?
 The null hypothesis - horsepower has no effect on mpg
 Alternate hypothesis - horsepower has effect on mpg
 
